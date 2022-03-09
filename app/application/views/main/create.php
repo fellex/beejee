@@ -10,7 +10,7 @@
             <div class="col-sm-4 mb-3">
                 <label for="validationCustom02">Email пользователя</label>
                 <input type="email" class="form-control form-control-sm <?= (!empty($errors['user_email'])?'is-invalid':'') ?>" id="validationCustom02" placeholder="user_email@dot.com" name="user_email" value="<?= isset($params['user_email'])?$params['user_email']:'' ?>" required>
-                <div class="invalid-feedback" for="validationCustom02">Не может быть пустым, соблюдайте фомрат email</div>
+                <div class="invalid-feedback" for="validationCustom02">Не может быть пустым, соблюдайте формат email</div>
             </div>
             <div class="col-sm-4 mb-3">
                 <label for="validationCustom03">Статус</label>
